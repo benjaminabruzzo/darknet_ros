@@ -61,6 +61,8 @@ Set up folders, pull code, and compile:
 
     cp ~/ros/src/darknet_ros/darknet_ros/build_darknet.bash ~/ros/
 
+For code used to installl cuda and nvidia drivers on ubuntu 16.04, see script in : https://github.com/benjaminabruzzo/darknet_ros/install_help/
+
 ### Dependencies
 
 This software is built on the Robotic Operating System ([ROS]), which needs to be [installed](http://wiki.ros.org) first. Additionally, YOLO for ROS depends on following software:

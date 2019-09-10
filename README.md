@@ -4,7 +4,7 @@
 
 This is a ROS package developed for object detection in camera images. You only look once (YOLO) is a state-of-the-art, real-time object detection system. In the following ROS package you are able to use YOLO (V3) on GPU and CPU. The pre-trained model of the convolutional neural network is able to detect pre-trained classes including the data set from VOC and COCO, or you can also create a network with your own detection objects. For more information about YOLO, Darknet, available training data and training YOLO see the following link: [YOLO: Real-Time Object Detection](http://pjreddie.com/darknet/yolo/).
 
-The YOLO packages have been tested under ROS Kinetic and Ubuntu 16.04. This is research code, expect that it changes often and any fitness for a particular purpose is disclaimed.
+The YOLO packages have been tested under ROS Melodic and Ubuntu 18.04. This is research code, expect that it changes often and any fitness for a particular purpose is disclaimed.
 
 **Author: [Marko Bjelonic](http://www.markobjelonic.me), marko.bjelonic@mavt.ethz.ch**
 
@@ -49,19 +49,6 @@ URL: https://github.com/leggedrobotics/darknet_ros, 2018.
     }
 
 ## Installation
-Set up folders, pull code, and compile:
-
-    mkdir ~/darknet && cd ~/darknet && git init
-    git remote add gh git@github.com:benjaminabruzzo/darknet.git && git pull gh master && make
-
-
-    mkdir -p ~/ros/src/darknet_ros && cd ~/ros/src/darknet_ros && git init
-    git remote add gh git@github.com:benjaminabruzzo/darknet_ros.git && git pull gh master
-    echo "export DARKNET_PATH=~/ros/src/darknet_ros/darknet" >> ~/.bashrc
-
-    cp ~/ros/src/darknet_ros/darknet_ros/build_darknet.bash ~/ros/
-
-For code used to installl cuda and nvidia drivers on ubuntu 16.04, see script in : https://github.com/benjaminabruzzo/darknet_ros/install_help/
 
 ### Dependencies
 
